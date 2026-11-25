@@ -40,7 +40,7 @@
       <p>Un fichier EPUB que tu ouvres avec Éclair est copié et lu sur ton téléphone. Il n’est envoyé nulle part.</p>
 
       <h2>Mentions légales</h2>
-      <p><strong>Éditeur :</strong> Thibault Gillard, développeur indépendant. Contact : <a href="https://github.com/Thibault-GILLARD">github.com/Thibault-GILLARD</a>.</p>
+      <p><strong>Éditeur :</strong> Thibault Gillard, développeur indépendant. Contact : <a class="mail" data-show="1" href="https://github.com/Thibault-GILLARD">thibault.gillard.doerfler [at] gmail.com</a>.</p>
       <p><strong>Hébergement du site :</strong> GitHub Pages, GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis.</p>
       <p>Les livres du catalogue sont dans le domaine public en France. Les couvertures et résumés des livres récents proviennent d’Open Library.</p>
     </div>
@@ -50,5 +50,6 @@
       <span>© 2026 Éclair</span>
     </footer>
   </div>
+<script>document.querySelectorAll("a.mail").forEach(function(a){var m=["thibault.gillard.doerfler","gmail.com"].join("@");a.href="mailto:"+m;if(a.dataset.show)a.textContent=m;});</script>
 </body>
 </html>

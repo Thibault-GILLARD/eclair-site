@@ -63,8 +63,9 @@
     <footer>
       <span>© 2026 Éclair</span>
       <a href="confidentialite.html">Confidentialité et mentions légales</a>
-      <a href="https://github.com/Thibault-GILLARD">Contact</a>
+      <a class="mail" href="https://github.com/Thibault-GILLARD">Contact</a>
     </footer>
   </div>
+<script>document.querySelectorAll("a.mail").forEach(function(a){var m=["thibault.gillard.doerfler","gmail.com"].join("@");a.href="mailto:"+m;if(a.dataset.show)a.textContent=m;});</script>
 </body>
 </html>
